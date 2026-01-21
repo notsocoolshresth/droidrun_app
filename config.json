@@ -1,0 +1,137 @@
+{
+  "user_profile": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+91-XXXXXXXXXX",
+    "resume_path": "/sdcard/Documents/resume.pdf",
+    "cover_letter_template": "I am excited to apply for the {job_title} position at {company}. With my background in software development and passion for technology, I believe I would be a great fit for this role."
+  },
+  
+  "job_preferences": {
+    "job_titles": [
+      "Software Developer Intern",
+      "Software Development Intern",
+      "SDET Intern",
+      "QA Tester",
+      "Software Tester",
+      "ML Intern",
+      "Machine Learning Intern",
+      "AI Research Intern",
+      "Backend Developer Intern",
+      "Frontend Developer Intern",
+      "Full Stack Developer Intern",
+      "Data Science Intern",
+      "Python Developer Intern"
+    ],
+    "keywords": [
+      "intern",
+      "internship",
+      "software developer",
+      "sdet",
+      "tester",
+      "qa",
+      "machine learning",
+      "ml",
+      "ai",
+      "artificial intelligence",
+      "python",
+      "java",
+      "javascript",
+      "backend",
+      "frontend",
+      "full stack"
+    ],
+    "locations": [
+      "Bangalore",
+      "Bengaluru",
+      "Mumbai",
+      "Delhi",
+      "Hyderabad",
+      "Pune",
+      "Remote",
+      "Work from Home"
+    ],
+    "experience_range": {
+      "min_years": 0,
+      "max_years": 1
+    },
+    "employment_types": [
+      "Internship",
+      "Full-time",
+      "Contract"
+    ],
+    "excluded_keywords": [
+      "senior",
+      "lead",
+      "manager",
+      "5+ years",
+      "experienced"
+    ]
+  },
+  
+  "platforms": {
+    "linkedin": {
+      "enabled": true,
+      "max_applications_per_session": 10,
+      "search_keywords": "Software Developer Intern",
+      "use_easy_apply": false,
+      "fill_detailed_forms": true
+    },
+    "naukri": {
+      "enabled": true,
+      "max_applications_per_session": 10,
+      "search_keywords": "Software Developer Intern",
+      "fill_detailed_forms": true
+    },
+    "indeed": {
+      "enabled": true,
+      "max_applications_per_session": 10,
+      "search_keywords": "Software Developer Intern",
+      "fill_detailed_forms": true
+    },
+    "unstop": {
+      "enabled": true,
+      "max_applications_per_session": 5,
+      "search_keywords": "Software Developer Intern",
+      "fill_detailed_forms": true
+    },
+    "whatsapp": {
+      "enabled": true,
+      "groups_to_monitor": [
+        "Job Opportunities",
+        "Tech Jobs India",
+        "Internship Alerts"
+      ],
+      "keywords_to_scan": [
+        "hiring",
+        "job opening",
+        "opportunity",
+        "intern",
+        "developer",
+        "apply"
+      ]
+    }
+  },
+  
+  "application_settings": {
+    "auto_apply": true,
+    "fill_detailed_applications": true,
+    "skip_quick_apply": true,
+    "max_daily_applications": 30,
+    "delay_between_applications_seconds": 60,
+    "skip_already_applied": true,
+    "save_job_descriptions": true
+  },
+  
+  "tracking": {
+    "excel_file_path": "D:\\droidrun_app\\job_applications.xlsx",
+    "log_file_path": "D:\\droidrun_app\\logs\\application_log.txt",
+    "screenshot_on_error": true,
+    "screenshot_path": "D:\\droidrun_app\\screenshots"
+  },
+  
+  "educational_disclaimer": {
+    "purpose": "educational_and_hackathon_only",
+    "note": "This tool is for educational and hackathon purposes only. Not for commercial use. Always comply with platform terms of service."
+  }
+}

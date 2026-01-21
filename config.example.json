@@ -1,0 +1,78 @@
+{
+    "user_profile": {
+        "name": "Your Name",
+        "email": "your.email@example.com",
+        "phone": "+91-XXXXXXXXXX",
+        "resume_path": "/sdcard/Documents/resume.pdf",
+        "cover_letter_template": "I am excited to apply for the {job_title} position at {company}."
+    },
+    "job_preferences": {
+        "job_titles": [
+            "Software Developer Intern",
+            "SDET Intern",
+            "QA Tester",
+            "ML Intern",
+            "AI Research Intern"
+        ],
+        "keywords": [
+            "intern",
+            "software developer",
+            "sdet",
+            "tester",
+            "machine learning",
+            "ai"
+        ],
+        "locations": [
+            "Remote",
+            "Work from Home"
+        ],
+        "experience_range": {
+            "min_years": 0,
+            "max_years": 1
+        },
+        "excluded_keywords": [
+            "senior",
+            "lead",
+            "5+ years"
+        ]
+    },
+    "platforms": {
+        "linkedin": {
+            "enabled": true,
+            "max_applications_per_session": 10,
+            "search_keywords": "Software Developer Intern"
+        },
+        "naukri": {
+            "enabled": true,
+            "max_applications_per_session": 10,
+            "search_keywords": "Software Developer Intern"
+        },
+        "indeed": {
+            "enabled": true,
+            "max_applications_per_session": 10,
+            "search_keywords": "Software Developer Intern"
+        },
+        "unstop": {
+            "enabled": true,
+            "max_applications_per_session": 5,
+            "search_keywords": "Software Developer Intern"
+        },
+        "whatsapp": {
+            "enabled": true,
+            "groups_to_monitor": [
+                "Job Opportunities"
+            ],
+            "keywords_to_scan": [
+                "hiring",
+                "job",
+                "intern"
+            ]
+        }
+    },
+    "tracking": {
+        "excel_file_path": "D:\\droidrun_app\\job_applications.xlsx"
+    },
+    "educational_disclaimer": {
+        "purpose": "educational_and_hackathon_only"
+    }
+}
